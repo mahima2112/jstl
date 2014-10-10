@@ -1,3 +1,5 @@
+package collections;
+
 import java.util.TreeMap;
 
 /**
@@ -5,10 +7,10 @@ import java.util.TreeMap;
  * mail: forty-7@yandex.ru
  * whatsapp: +7 917 981 55 64
  */
-public class MultiSet<T> {
+public class MultiTreeSet<T> {
     TreeMap<T, Integer> data;
 
-    public MultiSet() {
+    public MultiTreeSet() {
         this.data = new TreeMap<>();
     }
 
