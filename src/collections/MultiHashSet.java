@@ -7,10 +7,10 @@ import java.util.TreeMap;
  * mail: forty-7@yandex.ru
  * whatsapp: +7 917 981 55 64
  */
-public class MultiTreeSet<T> implements MultiSet<T>, Cloneable {
+public class MultiHashSet<T> implements MultiSet<T>, Cloneable {
     TreeMap<T, Integer> data;
 
-    public MultiTreeSet() {
+    public MultiHashSet() {
         this.data = new TreeMap<>();
     }
 
@@ -40,7 +40,7 @@ public class MultiTreeSet<T> implements MultiSet<T>, Cloneable {
 
     @Override
     public boolean equals(Object o) {
-        return o instanceof MultiTreeSet && this.data.equals(o);
+        return o instanceof MultiHashSet && this.data.equals(o);
     }
 
     @Override
