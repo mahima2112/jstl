@@ -1,13 +1,13 @@
 package collections;
 
-import java.util.TreeMap;
+import java.util.TreeMap;       // constructs an empty treemap
+            
 
-/**
- * Created by Kir Tribunskiy on 10.10.14.
- * mail: forty-7@yandex.ru
- * whatsapp: +7 917 981 55 64
- */
-public class MultiTreeSet<T> implements MultiSet<T>, Cloneable {
+
+public class MultiTreeSet<T> implements MultiSet<T>, Cloneable {         // cloneable - we have a copy of objects by
+																	// implementing cloneable interface
+																	// multiset - counts the no. of times an object
+																	// appears in the collection
     TreeMap<T, Integer> data;
 
     public MultiTreeSet() {
