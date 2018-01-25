@@ -2,11 +2,7 @@ package collections;
 
 import java.util.TreeMap;
 
-/**
- * Created by Kir Tribunskiy on 10.10.14.
- * mail: forty-7@yandex.ru
- * whatsapp: +7 917 981 55 64
- */
+
 public class MultiHashSet<T> implements MultiSet<T>, Cloneable {
     TreeMap<T, Integer> data;
 
